@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "API_BASE_URL=http://localhost:8080 npx webpack serve --mode development"
+    "dev": "npx webpack serve --mode development"
   },
   "author": "Bill P. II",
   "license": "ISC",
